@@ -1,4 +1,4 @@
-package OOP_CUI_Class_Work.src.Activity;
+package OOP_CUI_Class_Work.src.Lab1.Activity;
 import java.util.Scanner;
 class Car{
     public String Brand;

@@ -1,4 +1,4 @@
-package OOP_CUI_Class_Work.src.Activity;
+package OOP_CUI_Class_Work.src.Lab1.Activity;
 
 class  Student1{
     public String studentname;

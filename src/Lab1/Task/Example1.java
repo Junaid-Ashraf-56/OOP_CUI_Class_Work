@@ -1,4 +1,4 @@
-package OOP_CUI_Class_Work.src.Task;
+package OOP_CUI_Class_Work.src.Lab1.Task;
 import java.util.Scanner;
 
 class Library{
@@ -15,7 +15,7 @@ class Library{
         System.out.println(" Book name " + BookName +" Book Id "+ BookId + " Author Name "+AuthorName);
     }
 }
-public class Task1 {
+public class Example1 {
     public static void main(String[] args) {
         Scanner abc = new Scanner(System.in);
         Library l1 = new Library();
