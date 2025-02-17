@@ -3,18 +3,22 @@ class Circle{
  public double radius;
 
  public void Argument1(){
-     System.out.println("Radius is ");
+     radius = 5;
  }
- public double Argument2(double radius){
-   return  (3.14)*(radius);
+ public void Argument2(int x ){
+         radius =x;
+ }
+ public void display(){
+     System.out.println("The Circumference are "+(3.14)*(radius));
  }
 }
 class Task1{
     public static void main(String[] args) {
         Circle c1 = new Circle();
         c1.Argument1();
-        double Result = c1.Argument2(5);
-        System.out.println(Result);
+        c1.display();
+         c1.Argument2(5);
+        c1.display();
 
     }
 }

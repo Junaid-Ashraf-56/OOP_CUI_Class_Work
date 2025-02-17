@@ -1,20 +1,25 @@
 package OOP_CUI_Class_Work.src.Lab2.Task;
-class Circl{
-    public double radius;
+class Distance{
+    public int feet;
+    public int inches;
 
     public void Argument1(){
-        System.out.println("Radius is ");
+        System.out.println("Feet and Inches ");
     }
-    public double Argument2(double radius){
-        return  (3.14)*(radius);
+    public void Argument2(int x,int y){
+        feet = x;
+        inches = y;
+        System.out.println(x+ " " + y);
+    }
+    public void display(){
+        Argument1();
+        Argument2(5,25);
     }
 }
 class Task3{
     public static void main(String[] args) {
-        Circle c1 = new Circle();
-        c1.Argument1();
-        double Result = c1.Argument2(5);
-        System.out.println(Result);
+        Distance c1 = new Distance();
+        c1.display();
 
     }
 }
