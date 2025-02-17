@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 // Student class
 class Student1 {
-    private String name;
-    private int id;
-    private String department;
-    private double cgpa;
+    private final String name;
+    private final int id;
+    private final String department;
+    private final double cgpa;
 
     // Constructor
     public Student1 (String name, int id, String department, double cgpa) {
@@ -44,17 +44,17 @@ class Student1 {
 }
 public class Task1_1SG {
     public static void main(String[] args) {
-        // Creating Student objects
-//        Student1 student1 = new Student("Ali", 101, "Computer Science", 3.8);
-//        Student1 student2 = new Student("Ayesha", 102, "Software Engineering", 3.6);
+         //Creating Student objects
+        Student1 student1 = new Student1("Ali", 101, "Computer Science", 3.8);
+        Student1 student2 = new Student1("Ayesha", 102, "Software Engineering", 3.6);
 
-//        // Displaying student information
-//        student1.displayInfo();
-//        student2.displayInfo();
-//
-//        // Calling student behaviors (methods)
-//        student1.study();
-//        student1.attendClass();
-//        student1.takeExam();
+        // Displaying student information
+        student1.displayInfo();
+        student2.displayInfo();
+
+        // Calling student behaviors (methods)
+        student1.study();
+        student1.attendClass();
+        student1.takeExam();
     }
 }
