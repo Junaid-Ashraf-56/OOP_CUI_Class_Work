@@ -3,23 +3,20 @@ class Distance{
     public int feet;
     public int inches;
 
-    public void Argument1(){
+    public  Distance(){
         System.out.println("Feet and Inches ");
     }
-    public void Argument2(int x,int y){
+    public Distance(int x,int y){
         feet = x;
         inches = y;
         System.out.println(x+ " " + y);
     }
-    public void display(){
-        Argument1();
-        Argument2(5,25);
-    }
 }
 class Task3{
     public static void main(String[] args) {
-        Distance c1 = new Distance();
-        c1.display();
+       new Distance();
+       new Distance(56,5);
+
 
     }
 }

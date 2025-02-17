@@ -2,10 +2,10 @@ package OOP_CUI_Class_Work.src.Lab2.Task;
 class Circle{
  public double radius;
 
- public void Argument1(){
+ public Circle(){
      radius = 5;
  }
- public void Argument2(int x ){
+ public Circle(int x ){
          radius =x;
  }
  public void display(){
@@ -14,11 +14,10 @@ class Circle{
 }
 class Task1{
     public static void main(String[] args) {
-        Circle c1 = new Circle();
-        c1.Argument1();
-        c1.display();
-         c1.Argument2(5);
-        c1.display();
+         Circle c1 = new Circle();
+          c1.display();
+         Circle c2 = new Circle(5);
+         c2.display();
 
     }
 }
