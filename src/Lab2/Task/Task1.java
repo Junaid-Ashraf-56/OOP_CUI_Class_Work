@@ -3,7 +3,7 @@ class Circle{
  public double radius;
 
  public Circle(){
-     radius = 5;
+     radius = 10;
  }
  public Circle(int x ){
          radius =x;
