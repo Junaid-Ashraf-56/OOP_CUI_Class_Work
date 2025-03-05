@@ -35,10 +35,14 @@ class Book{
     public static Book compareChapterNames(Book b1, Book b2) {
         int count1 = 0, count2 = 0;
         for (String chap : b1.chapterNames) {
-            if (chap != null) count1++;
+            if (chap != null) {
+                count1++;
+            }
         }
         for (String chap : b2.chapterNames) {
-            if (chap != null) count2++;
+            if (chap != null) {
+                count2++;
+            }
         }
         return count1 >= count2 ? b1 : b2;
     }

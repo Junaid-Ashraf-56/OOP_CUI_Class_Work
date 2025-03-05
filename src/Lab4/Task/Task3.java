@@ -6,7 +6,7 @@ package OOP_CUI_Class_Work.src.Lab4.Task;
     // Default constructor
     public Fraction() {
         this.numerator = 0;
-        this.denominator = 1; // Default to 1 to avoid division by zero
+        this.denominator = 1;
     }
 
     // Parameterized constructor
@@ -14,8 +14,11 @@ package OOP_CUI_Class_Work.src.Lab4.Task;
         if (denominator == 0) {
             throw new IllegalArgumentException("Denominator cannot be zero");
         }
-        this.numerator = numerator;
-        this.denominator = denominator;
+        else
+        {
+            this.numerator = numerator;
+            this.denominator = denominator;
+        }
     }
 
     // Getter and Setter methods
@@ -35,7 +38,9 @@ package OOP_CUI_Class_Work.src.Lab4.Task;
         if (denominator == 0) {
             throw new IllegalArgumentException("Denominator cannot be zero");
         }
-        this.denominator = denominator;
+        else {
+            this.denominator = denominator;
+        }
     }
 
     // Display function
