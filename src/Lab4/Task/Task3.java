@@ -6,7 +6,7 @@ package OOP_CUI_Class_Work.src.Lab4.Task;
     // Default constructor
     public Fraction() {
         this.numerator = 0;
-        this.denominator = 1;
+        this.denominator = 0;
     }
 
     // Parameterized constructor
@@ -65,5 +65,6 @@ public class Task3{
 
         System.out.println("f1 and f2 are equal: " + f1.equals(f2));
         System.out.println("f1 and f3 are equal: " + f1.equals(f3));
+
     }
 }
