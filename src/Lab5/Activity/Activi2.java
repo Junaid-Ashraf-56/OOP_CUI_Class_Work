@@ -1,11 +1,11 @@
 package OOP_CUI_Class_Work.src.Lab5.Activity;
 
-class Date {
+class Date1 {
     private final int day;
     private final int month;
     private final int year;
 
-    public Date(int theMonth, int theDay, int theYear) {
+    public Date1(int theMonth, int theDay, int theYear) {
         month = checkmonth(theMonth); // First, assign month
         day = checkday(theDay);  // Now call checkday() after month is set
         year = theYear;
@@ -74,7 +74,7 @@ public class Activi2 {
     public static void main(String[] args) {
         Date1 b = new Date1(1, 12, 1990);
         Date1 h = new Date1(5, 6, 2016);
-        Employee e1 = new Employee("xxx", "yyyy", b, h);
+        Employee e1 = new Employee("Junaid", "Ashraf", b, h);
         e1.display();
     }
 }
