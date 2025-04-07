@@ -55,6 +55,7 @@ class BasePlusCommEmployee extends commissionEmployee
     {
         return super.earnings()+salary;
     }
+    @Override
     public void display(){
         super.display();
         System.out.println("Salary : "+salary);

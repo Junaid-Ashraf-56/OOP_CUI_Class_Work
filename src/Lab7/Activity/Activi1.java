@@ -12,8 +12,13 @@ class A
 class B extends A
 {
     int k;
-    B(int a, int b, int c) { super(a, b); k = c; }
+    B(int a, int b, int c)
+    {
+        super(a, b);
+        k = c;
+    }
     // display k – this overrides show() in A
+    @Override
     void show() {
         super.show();
         System.out.println("k: " + k);

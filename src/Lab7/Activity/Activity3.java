@@ -8,6 +8,7 @@ package OOP_CUI_Class_Work.src.Lab7.Activity;
     }
 }
 class BA extends AB {
+    @Override
     void callme() {
         System.out.println("B's implementation of callme.");
     }

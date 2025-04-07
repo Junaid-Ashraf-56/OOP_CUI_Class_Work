@@ -34,7 +34,7 @@ class Movie {
 
     // Display Movie Information
     public void display() {
-        System.out.println(" Movie: " + movieTitle + " | ID: " + getIdNumber() + " | Rating: " + getMpaaRating());
+        System.out.println(" Movie: " + movieTitle + "  ID: " + getIdNumber() + "  Rating: " + getMpaaRating());
     }
 }
 

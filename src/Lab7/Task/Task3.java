@@ -45,7 +45,7 @@ class Rectangle extends Shape {
         System.out.println(" Fill color for circle "+fillcolor);
     }
 }
-public class Task4 {
+public class Task3 {
     public static void main(String[] args) {
         Shape circle = new Circle("Red", "Blue");
         Shape square = new Rectangle("Black", "Yellow");
