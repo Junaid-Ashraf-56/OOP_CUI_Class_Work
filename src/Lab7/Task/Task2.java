@@ -50,13 +50,13 @@ class VerifiedSimple extends Simple{
 }
 public class Task2 {
     public static void main(String[] args) {
-        VerifiedSimple s1 = new VerifiedSimple(5,5);
+        Simple s1 = new VerifiedSimple(5,5);
         s1.add();
         s1.sub();
         s1.mul();
         s1.div();
 
-        VerifiedSimple s2 = new VerifiedSimple(5,0);
+        Simple s2 = new VerifiedSimple(5,0);
         s2.add();
         s2.sub();
         s2.mul();
