@@ -78,9 +78,9 @@ class Drama extends Movie {
 public class Task1 {
     public static void main(String[] args) {
         // Creating movie objects
-        Action actionMovie = new Action("PG-13", 101, "Mad Max: Fury Road");
-        Comedy comedyMovie = new Comedy("PG", 102, "The Mask");
-        Drama dramaMovie = new Drama("R", 103, "The Shawshank Redemption");
+        Movie actionMovie = new Action("PG-13", 101, "Mad Max: Fury Road");
+        Movie comedyMovie = new Comedy("PG", 102, "The Mask");
+        Movie dramaMovie = new Drama("R", 103, "The Shawshank Redemption");
 
         // Displaying movie details
         actionMovie.display();
