@@ -22,7 +22,6 @@ public class Task3 {
                 }
             }
         } catch (EOFException e) {
-            // End of file
             if (!found) {
                 System.out.println("Book not found.");
             }

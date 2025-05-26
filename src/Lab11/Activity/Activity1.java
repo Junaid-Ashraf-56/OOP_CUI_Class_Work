@@ -13,14 +13,11 @@ public class Activity1{
     public void writeToFile() {
         try
         {
-            ObjectOutputStream objectOutputStream =
-                    new ObjectOutputStream(new FileOutputStream("filename"));
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("filename"));
             Person p = new Person();
-            p.name = "Jakob Jenkov"; p.age = 40;
+            p.name = "Jakob Jenkov";
+            p.age = 40;
             objectOutputStream.writeObject(p);
-        }
-        catch (FileNotFoundException ex)
-        { ex.printStackTrace();
         }
         catch (IOException ex)
         { ex.printStackTrace();
