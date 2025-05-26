@@ -129,7 +129,7 @@ public class Task4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        writeInitialAccounts(); // Only run this once or comment it after initial creation
+//        writeInitialAccounts(); // Only run this once or comment it after initial creation
 
         while (true) {
             System.out.println("\n--- ATM Menu ---");
